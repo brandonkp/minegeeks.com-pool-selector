@@ -42,6 +42,49 @@
     <div id="page-wrapper">
         <div id="page"></div>
         <h1 class="text-center">Select A Currency</h1>
+	<br/>
+
+<!-- Pools -->
+<div id="poolStats" class="row">
+
+    <!-- Pool Hash Rate -->
+    <div class="col-lg-3 col-sm-4">
+        <div class="infoBox hoverExpandEffect">
+            <div class="icon">
+                <span class="fab fa-monero"></span>
+            </div>
+            <div class="content">
+                <div class="text"><span tkey="poolHashrate">Pool Hash Rate</span></div>
+                <div class="value"><span id="poolHashrate">N/A</span> <span class="smallText">(<span id="hashPower">0%</span>)</span></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Blocks Found -->
+    <div class="col-lg-3 col-sm-4">
+        <div class="infoBox hoverExpandEffect">
+            <div class="icon">
+                <span class="fa fa-cubes"></span>
+            </div>
+            <div class="content">
+                <div class="text"><span tkey="blocksTotal">Blocks Found</span></div>
+                <div class="value"><span id="blocksTotal">N/A</span> <span class="smallText">(<span id="poolLastBlockFound">Never</span>)</span></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Blocks Found Every -->
+    <div class="col-lg-3 col-sm-4">
+        <div class="infoBox hoverExpandEffect">
+            <div class="icon">
+                <span class="fa fa-history"></span>
+            </div>
+            <div class="content">
+                <div class="text"><span tkey="blockSolvedTime">Blocks Found Every</span></div>
+                <div class="value"><span id="blockSolvedTime">N/A</span> <span class="smallText">(<span tkey="estimated">estimated</span>)</span></div>
+            </div>
+        </div>
+    </div>
 	</div>
     
 </div>
